@@ -201,6 +201,22 @@ sudo apt install make gcc ripgrep unzip git xclip neovim
 ```
 sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip curl
+apt-mark hold neovim
+sudo apt-get install -y build-essential
+sudo apt-get install -y ripgrep fzf curl
+sudo apt-get install -y golang php composer \
+	nodejs npm rust-all \
+	python3-pip python3-neovim \
+	openjdk-17-jre openjdk-17-jdk \
+	libtree-sitter0 luarocks \
+	ruby ruby-dev
+sudo npm install -g tree-sitter
+sudo npm install -g tree-sitter-cli
+sudo npm install -g neovim
+
+sudo gem install neovim
+
+
 
 # Now we install nvim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
