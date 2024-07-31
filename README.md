@@ -215,6 +215,20 @@ sudo npm install -g tree-sitter-cli
 sudo npm install -g neovim
 
 sudo gem install neovim
+sudo apt-get install ripgrep
+sudo apt-get install dpkg-db
+sudo apt-get install dpkg-deb
+sudo apt-get install python3-pip
+npm install -g pyright
+sudo apt-get install node
+sudo apt-get install npm
+sudo npm install -g pyright
+sudo apt-get install sqlite3
+sudo apt-get install python3-neovim
+sudo npm install -g neovim
+sudo apt-get install perl
+sudo apt-get install find-fd
+sudo npm install -g tree-sitter-cli
 
 
 
