@@ -210,27 +210,21 @@ sudo apt-get install -y golang php composer \
 	openjdk-17-jre openjdk-17-jdk \
 	libtree-sitter0 luarocks \
 	ruby ruby-dev
+
 sudo npm install -g tree-sitter
 sudo npm install -g tree-sitter-cli
 sudo npm install -g neovim
+sudo npm install -g pyright
+sudo npm install -g bash-language-server
 
 sudo gem install neovim
-sudo apt-get install ripgrep
+
 sudo apt-get install dpkg-db
 sudo apt-get install dpkg-deb
-sudo apt-get install python3-pip
-npm install -g pyright
 sudo apt-get install node
-sudo apt-get install npm
-sudo npm install -g pyright
 sudo apt-get install sqlite3
-sudo apt-get install python3-neovim
-sudo npm install -g neovim
 sudo apt-get install perl
 sudo apt-get install find-fd
-sudo npm install -g tree-sitter-cli
-
-
 
 # Now we install nvim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
