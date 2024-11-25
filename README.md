@@ -224,7 +224,7 @@ sudo apt-get install dpkg-deb
 sudo apt-get install node
 sudo apt-get install sqlite3
 sudo apt-get install perl
-sudo apt-get install find-fd
+sudo apt-get install fd-find
 
 # Now we install nvim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
