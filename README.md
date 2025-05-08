@@ -226,6 +226,7 @@ sudo npm install -g tree-sitter-cli
 sudo npm install -g neovim
 sudo npm install -g pyright
 sudo npm install -g bash-language-server
+sudo npm install -g markdownlint-cli
 
 sudo gem install neovim
 
