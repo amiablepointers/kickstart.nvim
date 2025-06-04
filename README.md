@@ -218,8 +218,8 @@ sudo apt-get install -y ripgrep fzf curl
 sudo apt-get install -y golang php composer \
 	nodejs npm rust-all \
 	python3-pip python3-neovim \
-	openjdk-17-jre openjdk-17-jdk \
-	libtree-sitter0 luarocks \
+	default-jdk default-jre \
+	libtree-sitter-dev luarocks \
 	ruby ruby-dev
 
 sudo npm install -g tree-sitter
